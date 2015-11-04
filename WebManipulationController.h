@@ -57,13 +57,13 @@ Change History (most recent first):
 
 @interface WebManipulationController : NSObject
 {
-    IBOutlet WebView	 *myWebView;
-	IBOutlet NSTextField *paraCount;
-	IBOutlet NSTextField *paraText;
-	IBOutlet NSTextField *welcomeText;
-	IBOutlet NSTextView  *sourceCodeView;
-	IBOutlet NSButton	 *isBold;
-	IBOutlet NSButton	 *isItalic;
+    IBOutlet WebView     *myWebView;
+    IBOutlet NSTextField *paraCount;
+    IBOutlet NSTextField *paraText;
+    IBOutlet NSTextField *welcomeText;
+    IBOutlet NSTextView  *sourceCodeView;
+    IBOutlet NSButton    *isBold;
+    IBOutlet NSButton    *isItalic;
 }
 - (IBAction)replaceText:(id)sender;
 - (IBAction)addPara:(id)sender;
